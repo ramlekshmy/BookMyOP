@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "384416937202",
+    "firebase_url": "https://bookmyop-70e3c.firebaseio.com",
+    "project_id": "bookmyop-70e3c",
+    "storage_bucket": "bookmyop-70e3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384416937202:android:bad6018ae4387540",
+        "android_client_info": {
+          "package_name": "com.example.ashikvarma.patientportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384416937202-qg69ofnl7ct3ptacgv8nt2jv6ms4734u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashikvarma.patientportal",
+            "certificate_hash": "13748011038a4efaca627dedba0cf283a41fd8ef"
+          }
+        },
+        {
+          "client_id": "384416937202-le0nn608o46fk6clgcbq8fji4cc5i2fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_k3rT8h0IeIswc7IxWMuYioYLWcgVcvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384416937202-le0nn608o46fk6clgcbq8fji4cc5i2fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

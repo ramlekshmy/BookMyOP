@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dimen_10_dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_2_dp">
+
+    <EditText
+        android:id="@+id/patientname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5_dp"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:hint="Your Name"
+        android:padding="@dimen/dimen_5_dp" />
+
+    <EditText
+        android:id="@+id/patientdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5_dp"
+        android:background="@drawable/background"
+        android:editable="false"
+        android:clickable="true"
+        android:focusable="false"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date"
+        android:padding="@dimen/dimen_5_dp" />
+
+    <EditText
+        android:id="@+id/patientconcerns"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5_dp"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:hint="Purpose"
+        android:inputType="textLongMessage"
+        android:padding="@dimen/dimen_5_dp" />
+
+    <EditText
+        android:id="@+id/doctorname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/dimen_5_dp"
+        android:background="@drawable/background"
+        android:hint="Doctor Name"
+        android:inputType="text"
+        android:padding="@dimen/dimen_5_dp" />
+
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg"
+        android:text="Book"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
